@@ -1,6 +1,5 @@
 package com.carousell.demo.helper;
 
-
 import io.appium.java_client.AppiumDriver;
 
 /**
@@ -9,11 +8,8 @@ import io.appium.java_client.AppiumDriver;
  */
 public abstract class AppiumBaseClass {
 
-    protected AppiumDriver<?> driver() {
-        return AppiumController.instance.driver;
-    }
-    
-    protected String getPageSource() {
-        return AppiumController.instance.driver.getPageSource();
-    }
+	protected AppiumDriver<?> driver() {
+		return AppiumController.instance.driver;
+	}
+
 }

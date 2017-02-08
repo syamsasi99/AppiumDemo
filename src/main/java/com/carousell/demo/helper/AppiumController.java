@@ -9,6 +9,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author syam
+ *
+ */
 public class AppiumController {
 
 	public static OS executionOS = OS.ANDROID;
